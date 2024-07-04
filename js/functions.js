@@ -6,6 +6,7 @@ const checkStringLength = function(string,length){
   }
 };
 
+
 const isPalindrome = function(string){
   string = string.toLowerCase().replaceAll(' ','');
   let newString = '';
